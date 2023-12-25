@@ -9,7 +9,7 @@
 pip install streamlit
 pip install -r requirements.txt
 ```
-3. Deployment
+3. Deployment on streamlit
 ```
 cd data-analyst/dashboard/
 streamlit run dashboard.py
