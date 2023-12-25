@@ -43,8 +43,8 @@ def macem_season (day_df):
     return season_df
 
 # Reading DataFrames
-days_df = pd.read_csv("C:/Users/Mukhamad Azis Tholib/Documents/CLEAN SOON/Submission/bike-sharing/dashboard/day_clean.csv")
-hours_df = pd.read_csv("C:/Users/Mukhamad Azis Tholib/Documents/CLEAN SOON/Submission/bike-sharing/dashboard/hour_clean.csv")
+days_df = pd.read_csv("dashboard/day_clean.csv")
+hours_df = pd.read_csv("dashboard/hour_clean.csv")
 
 datetime_columns = ["dteday"]
 days_df.sort_values(by="dteday", inplace=True)
